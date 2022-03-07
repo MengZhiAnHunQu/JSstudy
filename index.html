@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <script>
+      // for (let i = 1; i <= 100; i++) {
+      //   console.log("hi");
+      // }
+      // let num = prompt("num");
+      // for (let i = 1; i <= num; i++) {
+      //   console.log("heee");
+      // }
+
+      // for (let i = 1; i <= 100; i++) {
+      //   console.log(`${i} year old`);
+      // }
+
+      // for (let i = 1; i <= 100; i++) {
+      //   if (i == 1) {
+      //     console.log("!1 year old");
+      //   } else if (i == 100) {
+      //     console.log("!100 year old");
+      //   } else {
+      //     console.log(`${i}year old`);
+      //   }
+      // }
+
+      /////////////////////////////////////////////////// 1~100 add together
+      // let sum = 0;
+      // for (let i = 1; i <= 100; i = i + 1) {
+      //   sum += i;
+      // }
+      // console.log(sum);
+
+      // /////////////////////////////////////////////////////1~100 average
+      // let sum = 0;
+      // let average = 0;
+      // for (let i = 1; i <= 100; i = i + 1) {
+      //   sum += i;
+      // }
+      // average = sum / 100;
+      // console.log(average);
+
+      /////////////////////////////////////////////1~100 even sum and odd number sum
+      // let evenSum = 0;
+      // let oddSum = 0;
+      // for (let i = 1; i <= 100; i = i + 1) {
+      //   if (i % 2 == 0) {
+      //     evenSum += i;
+      //   } else {
+      //     oddSum += i;
+      //   }
+      // }
+      // console.log(evenSum);
+      // console.log(oddSum);
+
+      ////1~100 can be moduled by 3, then add together
+      // let sum = 0;
+      // for (let i = 1; i <= 100; i++) {
+      //   if (i % 3 == 0) {
+      //     sum += i;
+      //   }
+      // }
+      // console.log(sum);
+      //////////////////////////////////////////////////////////////////total grade
+      //1. how many students
+      // let num = prompt("how many students in the class?");
+      // let sum = 0;
+      // let average = 0;
+      // for (let i = 1; i <= num; i++) {
+      //   let score = prompt(`Please enter no.${i} students' score`);
+      //   sum = sum + parseFloat(score); //prompt取过来的值是字符 要转换成数字
+      //   console.log(sum);
+      // }
+      // average = sum / num;
+      // alert(`班级总分${sum}`);
+      // alert(`班级平均${average}`);
+      //////////////////////////////////////////////////////////five stars in one line
+      // let num = prompt("how many stars?");
+      // let str = "";
+      // for (let i = 1; i <= num; i++) {
+      //   str = str + "⭐️";
+      // }
+      // console.log(str);
+
+      /////////////////////////////five stars in five rows
+      // let num = prompt("how many per line?");
+      // let row = prompt("how many rows?");
+      // let str = "";
+      // for (let i = 1; i <= row; i++) {
+      //   for (let j = 1; j <= num; j++) {
+      //     str = str + "⭐️";
+      //   }
+      //   str = str + "\n";
+      // }
+      // console.log(str);
+
+      ////////////////////////////////inverted trangle
+      // let str = "";
+      // for (let i = 1; i <= 10; i++) {
+      //   for (let j = i; j <= 10; j++) {
+      //     str = str + "⭐️";
+      //   }
+      //   str = str + "\n";
+      // }
+      // console.log(str);
+
+      /////////////trangle
+      // let str = "";
+      // for (let i = 1; i <= 10; i++) {
+      //   for (let j = 1; j <= i; j++) {
+      //     str = str + "⭐️";
+      //   }
+      //   str = str + "\n";
+      // }
+      // console.log(str);
+
+      /////////////////////////9*9
+      // let str = "";
+      // for (let i = 1; i <= 9; i++) {
+      //   for (let j = 1; j <= i; j++) {
+      //     str += j + "×" + i + "=" + j * i + "\t";
+      //   }
+      //   str = str + "\n";
+      // }
+      // console.log(str);
+      //homework
+      //1.1~100 total and average
+      // let sum = 0;
+
+      // for (let i = 1; i <= 100; i++) {
+      //   sum += i;
+      // }
+      // console.log(sum);
+      // console.log(sum / 100);
+      //2. odd Number
+      // let oddSum = 0;
+      // for (let i = 1; i <= 100; i++) {
+      //   if (i % 2 == 0) {
+      //     oddSum += i;
+      //   }
+      // }
+      // console.log(oddSum);
+      // 3. 7的倍数的总和
+      // let sevenSum = 0;
+      // for (let i = 1; i <= 100; i++) {
+      //   if (i % 7 == 0) {
+      //     sevenSum += i;
+      //   }
+      // }
+      // console.log(sevenSum);
+      // 4.5stars five lines
+      // let str = "";
+      // for (let i = 1; i <= 5; i++) {
+      //   for (let j = 1; j <= 5; j++) {
+      //     str += "❤️";
+      //   }
+      //   str = str + "\n";
+      // }
+      // console.log(str);
+      //////////////////////////////// 5.trangle
+      // let str = "";
+      // for (let i = 1; i <= 5; i++) {
+      //   for (let j = 1; j <= i; j++) {
+      //     str += "❤️";
+      //   }
+      //   str = str + "\n";
+      // }
+      // console.log(str);
+      //////////////////////////////////// 6.9*9
+      // let str = "";
+      // for (let i = 1; i <= 9; i++) {
+      //   for (let j = 1; j <= i; j++) {
+      //     str += j + "×" + i + "=" + j * i + "\t";
+      //   }
+      //   str = str + "\n";
+      // }
+      // console.log(str);
+      //////////////////////////////// 7.login password
+      // let name = prompt("name");
+      // let password = prompt("password");
+      // while (name !== "admin" || password !== "123456") {
+      //   name = prompt("name");
+      //   password = prompt("password");
+      // }
+      // alert("welcome");
+      /////////////////////// 8.1~100 total 个位数为3跳过
+      // let sum = 0;
+      // for (let i = 1; i <= 100; i++) {
+      //   if (i % 10 == 3) {
+      //     continue;
+      //   }
+      //   sum += i;
+      // }
+      // console.log(sum);
+
+      //p106
+      // let arr = [2, 0, 6, 1, 77, 0, 52, 0, 25, 7];
+      // let newArr = [];
+      // let j = 0;
+      // for (let i = 0; i < arr.length; i++) {
+      //   if (arr[i] > 10) {
+      //     newArr[j] = arr[i];
+      //     j++;
+      //   }
+      // }
+      // console.log(newArr);
+      ////////////////////////////////////////////p107
+      // let arr = [2, 0, 6, 1, 77, 0, 52, 0, 25, 7];
+      // let newArr = [];
+
+      // for (let i = 0; i < arr.length; i++) {
+      //   if (arr[i] > 10) {
+      //     newArr[newArr.length] = arr[i];
+      //   }
+      // }
+      // console.log(newArr);
+      /////////////////////////////////////////////p108
+      // let arr = [2, 0, 6, 1, 77, 0, 52, 0, 25, 7];
+      // let newArr = [];
+      // for (let i = 0; i < arr.length; i++) {
+      //   if (arr[i] !== 0) {
+      //     newArr[newArr.length] = arr[i];
+      //   }
+      // }
+      // console.log(newArr);
+      ////////////////////////////////////////p109
+      // let arr = ["red", "green", "blue", "pink", "purple"];
+      // let newArr = [];
+      // for (let i = arr.length; i > 0; i--) {
+      //   newArr[newArr.length] = arr[i - 1];
+      // }
+      // console.log(newArr);
+
+      /////////////////////////////p110
+      // let arr = [5, 4, 3, 2, 1];
+
+      // for (i = 0; i < arr.length - 1; i++) {
+      //   for (j = 0; j < arr.length - i - 1; j++) {
+      //     if (arr[j] > arr[j + 1]) {
+      //       let temp = arr[j];
+      //       arr[j] = arr[j + 1];
+      //       arr[j + 1] = temp;
+      //     }
+      //   }
+      // }
+      // console.log(arr);
+      ///////////////////////////p116   1~100 add together
+
+      // let addTotal = () => {
+      //   let sum = 0;
+      //   for (let i = 1; i <= 100; i++) {
+      //     sum += i;
+      //   }
+      //   console.log(sum);
+      // };
+      // addTotal();
+      // let cook = (par) => {
+      //   console.log(par);
+      // };
+      // cook("beef");
+
+      //////////p118 求任意两数的和
+      // let addTotal = (a, b) => {
+      //   console.log(a + b);
+      // };
+      // addTotal(1, 3);
+      //////////////////p121
+      // let addTotal = (num1, num2) => {
+      //   // if (num1 > num2) {
+      //   //   return num1;
+      //   // } else {
+      //   //   return num2;
+      //   // }
+      //   return num1 > num2 ? num1 : num2;
+      // };
+
+      // console.log(addTotal(1, 8));
+
+      ///////////////////p122
+      // let arr = [2, 0, 6, 1, 77, 0, 52, 0, 25, 7];
+      // for (let i = 0; i < arr.length; i++) {
+      //   if (arr[i] > arr[i + 1]) {
+      //     let max = arr[i];
+      //   }
+      //   console.log(max);
+      // }
+
+      // let getMax = (arr) => {
+      //   let max = arr[0];
+      //   for (let i = 1; i < arr.length; i++) {
+      //     if (arr[i] > max) {
+      //       max = arr[i];
+      //     }
+      //   }
+      //   return max;
+      // };
+      // let result = getMax([2, 0, 6, 1, 77, 0, 52, 0, 25, 7]);
+      // console.log(result);
+      ///////////////////////////////p129
+
+      // const maoPao = () => {
+      //   for (i = 0; i < arguments.length; i++) {
+      //     for (j = 0; j < arguments.length - i - 1; j++) {
+      //        if( arguments[i]> arguments[i+1]){
+      //          let temp =[]
+
+      //        }
+      //     }
+      //   }
+      // };
+
+      // maoPao([5, 4, 3, 2, 1]);
+      //////////////////////////////p181求red出现的位置和次数
+      // let arr = ["red", "blue", "red", "green", "pink", "red"];
+      // let index = arr.indexOf("red");
+
+      // let number = 0;
+      // while (index !== -1) {
+      //   console.log(index);
+      //   number++;
+      //   index = arr.indexOf("red", index + 1);
+      // }
+      // console.log(`red appears ${number} times`);
+      //////////////////////////////////////p183 判断str = "abcoefoxyozzopp" 出现最多的字符，并统计次数
+    </script>
+  </body>
+</html>
